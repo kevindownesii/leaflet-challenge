@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+h4 {
+  margin: 0px;
+  text-align: center;
+}
+
+.legend {
+    padding: 10px;
+    font-size: 12px; 
+    font-weight: bold;
+    color: #555;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+  }
+
+.legoption {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.box {
+  float: inline-start;
+  height: 18px;
+  width: 18px;
+  margin-right: 3px;
+}
+
